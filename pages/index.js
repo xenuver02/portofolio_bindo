@@ -14,7 +14,7 @@ export default function Home() {
 
   const skills = [
     { name: "HTML & CSS", percentage: 90, description: "Mampu membuat tampilan website yang responsif dan menarik." },
-    { name: "Mid Lane", percentage: 75, description: "Menguasai dasar-dasar JavaScript serta pengembangan interaktif pada web." },
+    { name: "Java Script", percentage: 75, description: "Menguasai dasar-dasar JavaScript serta pengembangan interaktif pada web." },
     { name: "React.js", percentage: 80, description: "Mampu membangun aplikasi frontend yang modular dengan React.js." },
     { name: "Next.js", percentage: 75, description: "Berpengalaman dalam pembuatan website dengan Next.js untuk SSR dan SSG." },
     { name: "UI/UX Design", percentage: 70, description: "Memahami prinsip desain yang baik untuk meningkatkan pengalaman pengguna." },
@@ -151,7 +151,7 @@ export default function Home() {
                 viewport={{ once: true }}
               >
                 <p className="text-lg font-semibold dark:text-white">{skill.name}</p>
-                <div className="w-full bg-gray-300 rounded-full h-3 mt-2 relative overflow-hidden">
+                <div className="w-full bg-gray-300 rounded-full h-5 mt-2 relative overflow-hidden">
                   <motion.div
                     className="bg-teal-500 h-5 rounded-full"
                     initial={{ width: 0 }}
